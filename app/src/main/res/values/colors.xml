@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#070707</color>
+    <color name="mainCircleImageBorderColor">#E3C0EF</color>
+    <color name="mainUserNameTextColor">#070707</color>
+    <color name="mainUserHeartTextColor">#AF1C12</color>
+    <color name="mainBtnTextColor">#101010</color>
+    <color name="playQuestionTextColor">#0C0C0C</color>
+    <color name="splashScreenTextColor">#101010</color>
+    <color name="customBtnTextColor">#0C0C0C</color>
+    <color name="customTextColor">#0E0E0E</color>
+    <color name="customBgColor">#DDBCE1</color>
+    <color name="customBgCloseColor">#D83E01</color>
+</resources>

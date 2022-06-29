@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.berol.ParadiseGame">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ico"
+        android:label="ParadiseGame"
+        android:roundIcon="@mipmap/ico"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.berol.ParadiseGame.giris"
+            android:exported="false" />
+        <activity
+            android:name="com.berol.ParadiseGame.flappyEagle"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.berol.ParadiseGame.becerioyunlari"
+            android:exported="false" />
+        <activity
+            android:name="com.berol.ParadiseGame.beceri1"
+            android:exported="false" />
+        <activity
+            android:name="com.berol.ParadiseGame.SplashScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.berol.ParadiseGame.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.berol.ParadiseGame.PlayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.berol.ParadiseGame.ilkekran"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8619475690983571~7027300639" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
